@@ -6,6 +6,7 @@ body {
     padding: 30px;
     background-image: url("/images/NavbarBG.png");
     color: white;
+    margin: 0%;
 }
 
 header h1 {
@@ -16,9 +17,12 @@ header h2 {
     color: white;
 }
 
+.navbar {
+    background-color:#FF8200;
+}
+
 #footer {
     background-image: url("/images/NavbarBG.png");
-    bottom: 0;
     padding: 20px 0;
     position: relative;
     left: 0;
@@ -31,7 +35,7 @@ header h2 {
 
 h1, h2, h3, h4 {
     font-family: "Merriweather";
-    color: orange;
+    color: #FF8200;
 }
 
 /* h2 {
