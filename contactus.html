@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
+<!-- <head>
     <!-- Required meta tags always come first -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -18,7 +18,7 @@
 </head>
 
 <body>
-
+    
     <!-- Jumbotron -->
     <header class="jumbotron">
         <div class="container">
@@ -48,36 +48,22 @@
         </div>
     </nav>
 
-    <!-- Meat/Taters -->
+    <!-- Feedback -->
     <div class="container">
-        <div class="row row-content align-items-center">
-            <div class="col-sm-4 col-md-3">
-                <h2 class="text-sm-center">Discover & Review</h2>
-            </div>
-            <div class="col">
-                <h3>Our Campsites</h3>
-                <p>Explore our growing database of curated campsites and leave your own reviews!</p>
-            </div>
-        </div>
-
-        <div class="row row-content align-items-center">
-            <div class="col-sm-4 col-md-3">
-                <h2 class="text-sm-center">Featured Campsites</h2>
-            </div>
-            <div class="col">
-                <h3>React Lake Campground</h3>
-                <p>Nestled in the foothills of the Chrome Mountains, this campground on the shores of the pristine React Lake is a favorite for fly fishers.</p>
-            </div>
-        </div>
-
-        <div class="row row-content align-items-center">
-            <div class="col-sm-4 col-md-3">
-                <h2 class="text-sm-center">Our Community Partners</h2>
-            </div>
-            <div class="col">
-                <h3>Bootstrap Outfitters</h3>
-                <p>Bootstrap Outfitters supplies you with the gear you need at prices you can't beat.</p>
-            </div>
+        <div class="row row-content">
+            <form class="text-center col">
+                <div class="form-group row">
+                    <label for="feedback" class="col col-form-label">Your Feedback</label>
+                    <div class="col-md-10">
+                        <textarea class="form-control" id="feedback" name="feedback" rows="8"></textarea>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col">
+                        <button type="submit" id="feedbackbtn" class="btn btn-primary">Send Feedback</button>
+                    </div>
+                </div>
+            </form>
         </div>
     </div>
 
@@ -88,9 +74,9 @@
                 <!-- <div class="col text-center">
                     <h5>Links</h5>
                     <ul class="list-unstyled">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="aboutus.html">About</a></li>
-                        <li><a href="#">Menu</a></li>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Sites</a></li>
                         <li><a href="#">Contact</a></li>
                     </ul>
                 </div>             -->
