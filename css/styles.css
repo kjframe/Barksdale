@@ -4,7 +4,8 @@ body {
 
 .jumbotron {
     padding: 30px;
-    background-image: url("/images/NavbarBG.png");
+    background-image: url("https://uploads-ssl.webflow.com/586daaf665135fc1782ecc67/586db1bf05a3fc624235d879_wood_1.jpg");
+    background-size: 100%;
     color: white;
     margin: 0%;
 }
@@ -22,15 +23,16 @@ header h2 {
 }
 
 #footer {
-    background-image: url("/images/NavbarBG.png");
+    background-image: url("https://uploads-ssl.webflow.com/586daaf665135fc1782ecc67/586db1bf05a3fc624235d879_wood_1.jpg");
+    background-size: 100%;
     padding: 20px 0;
-    position: relative;
     left: 0;
     bottom: 0;
     color: white;
     width: 100%;
     height: 150px;
     margin-top: auto;
+    position: sticky;
 }
 
 h1, h2, h3, h4 {
