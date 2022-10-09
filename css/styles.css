@@ -59,6 +59,39 @@ h1, h2, h3, h4 {
     color: white
 }
 
+#location {
+    color: white
+}
+
 #feedbackbtn {
     background-color:#FF8200
+}
+
+#breakfast, #lunch {
+    color:black
+}
+
+#GoodMorning {
+    background-color: black;
+    color: White;
+    margin: 0;
+    border-radius: 25px;
+    border-style: dashed;
+}
+
+.menu-category-section {
+    background-color: #d1d1d1;
+    padding: 0.25em 0.25em 0 0.25em;
+    margin-bottom: 1.5em; 
+    border-radius: 50px;
+}
+
+#elvis2 {
+    background-image: url(/images/elvis2.jpg);
+    background-size: 53%;
+}
+
+#elvis {
+    background-image: url(/images/elvis.jpg);
+    background-size: 53%;
 }
